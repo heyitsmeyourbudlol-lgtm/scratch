@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+*.log
+*.tmp
+notes/.DEBRIEF_LOG.md.*
+__pycache__/
+*.pyc
+.venv/
+automation.config.local.json
+*.pem
+credentials.json
+secrets/
