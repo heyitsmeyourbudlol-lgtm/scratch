@@ -13,3 +13,7 @@ automation.config.local.json
 *.pem
 credentials.json
 secrets/
+notes/DEBRIEF_LOG.md
+notes/**/*.local.json
+scripts/**/*.local.json
+!dgx_speed.local.json
