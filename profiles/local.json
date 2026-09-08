@@ -1,6 +1,6 @@
 {
   "_generated_by": "automation_adapt.py",
-  "_generated_at": "2026-09-08T05:29:42.330524+00:00",
+  "_generated_at": "2026-09-08T11:07:30.843203+00:00",
   "verify_commands": [
     "python3 scripts/peer_orchestrate.py --self-check",
     "python3 -m unittest tests.test_automation -q",
@@ -22,7 +22,7 @@
     "python3 -m unittest tests.test_cache_path_fallback -q",
     "python3 -m unittest tests.test_self_check_dedup_measure -q"
   ],
-  "_git_fingerprint": "5df68eca6f7d62f1aa83f0ef29cb257fcb1008e5:?? .cursor/\n?? AGENTS.md\n?? IMPORT.md\n?? LAUNCH.md\n?? automation.config.json\n?? dgx_speed.local.json\n?? install.sh\n?? profiles/\n?? repos/\n?? scripts/\n?? tests/",
+  "_git_fingerprint": "20a31fd093a5b4c05562a41b917b98219eff97ad:M  .gitignore\nD  scripts/AGENT_ERROR_PLAYBOOK.md\nD  scripts/dgx_speed.local.json",
   "module_scope": {
     "_clean_force_free_auth": "scripts/_clean_force_free_auth.py",
     "_clean_install_gpu_worker": "scripts/_clean_install_gpu_worker.py",
