@@ -1,0 +1,108 @@
+{
+  "needle": "OVERSEER_NO_JUMP_UNTIL_A_TO_Z_2026_09_07",
+  "needle_ae": "OVERSEER_KIT_RUN_AE_2026_09_07",
+  "ts": "2026-09-08T05:22:34Z",
+  "repo": "movie",
+  "namespace": "movie",
+  "target": "/Users/togi/movie",
+  "dry_run": false,
+  "stop_after": "E",
+  "steps": [
+    {
+      "cmd": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "/Users/togi/Automation/scripts/automation_adapt.py",
+        "--heal",
+        "--write",
+        "--quick",
+        "--target",
+        "/Users/togi/movie"
+      ],
+      "cwd": "/Users/togi/movie",
+      "exit": 0,
+      "stdout_tail": "ests.test_peer_pen_test -q\n  [verify] SKIP quick: python3 -m unittest tests.test_peer_remote -q\n  [verify] SKIP quick: python3 -m unittest tests.test_compact_land_proof -q\n  [verify] SKIP quick: python3 -m unittest tests.test_peer_last_cycle_poison -q\n  [verify] SKIP quick: python3 -m unittest tests.test_peer_self_heal -q\n  [verify] SKIP quick: python3 -m unittest tests.test_peer_repo_research -q\n  [verify] SKIP quick: python3 -m unittest tests.test_pool_ensure_fastpath -q\n  [verify] SKIP quick: python3 -m unittest tests.test_peer_dual_research_linux_install -q\n  [verify] SKIP quick: python3 -m unittest tests.test_adapt_verify_protect -q\n  [verify] SKIP quick: python3 -m unittest tests.test_emit_inventory_ttl_list_skip -q\n  [verify] SKIP quick: python3 -m unittest tests.test_prepare_prompts_ttl -q\n  [verify] SKIP quick: python3 -m unittest tests.test_auth_live_soft -q\n  [verify] SKIP quick: python3 -m unittest tests.test_parse_phased_ttl -q\n  [verify] SKIP quick: python3 -m unittest tests.test_cache_path_fallback -q\n  [verify] SKIP quick: python3 -m unittest tests.test_self_check_dedup_measure -q\n\nPASSS:\n  [script] automation_adapt.py compiles\n  [config] automation.config.json valid\n  [local_profile] 19 verify command(s)\n  [adapt_state] adapt-state consistent\n  [verify] 19 command(s) listed (quick \u2014 run full audit to execute)\n  [queue] WORK_QUEUE \u2194 context in sync\n  [tasks] 51 templates, 19 verify cmds\n  [signals] stack=automation profile=automation\n\nVERIFY OUTPUT:\n  \u2713 (None) python3 scripts/peer_orchestrate.py --self-check\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_automation -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_run_peer_tasks -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_worktree -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_pen_test -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_remote -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_compact_land_proof -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_last_cycle_poison -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_self_heal -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_repo_research -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_pool_ensure_fastpath -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_dual_research_linux_install -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_adapt_verify_protect -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_emit_inventory_ttl_list_skip -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_prepare_prompts_ttl -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_auth_live_soft -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_parse_phased_ttl -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_cache_path_fallback -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_self_check_dedup_measure -q\n      trusted from local profile (quick audit)\n\nOUTPUT FILES:\n{\n  \"automation.config.json\": {\n    \"path\": \"/Users/togi/movie/automation.config.json\",\n    \"exists\": true,\n    \"error\": null\n  },\n  \"profiles/local.json\": {\n    \"path\": \"/Users/togi/movie/profiles/local.json\",\n    \"exists\": true,\n    \"error\": null\n  },\n  \"adapt-state.json\": {\n    \"path\": \"/Users/togi/.config/automation-hub/adapt-state.json\",\n    \"exists\": true,\n    \"error\": null\n  }\n}\n",
+      "stderr_tail": "",
+      "step": "A_adapt",
+      "ok": true,
+      "dry_run": false
+    },
+    {
+      "step": "B_verify",
+      "ok": true,
+      "dry_run": false,
+      "results": [
+        {
+          "cmd": [
+            "bash",
+            "-lc",
+            "python3 scripts/peer_orchestrate.py --self-check --quick"
+          ],
+          "cwd": "/Users/togi/movie",
+          "exit": 0,
+          "stdout_tail": "=== automation self-check ===\n\nISSUES: none\n\nTIPS:\n  \u2192 Launch track active: 1 open phase item(s) \u2014 read LAUNCH.md; next: **[factory] Kit-run twenty-second registry target** \u2014 next Mac `.git` \u2026\n  \u2192 Many implementation peers \u2014 merge logic may need tuning.\n  \u2192 Loop preview source: launch\n  \u2192 Role roster: 8 job title(s) assigned this cycle\n  \u2192 Worker pool: 8/8 niches (full hub pool)\n  \u2192 Hub worktrees on disk: 0/8 \u2014 ./scripts/peer ensure-pool\n  \u2192 Command ecosystem: prefer ./scripts/peer \u2014 see notes/AGENT_COMMANDS.md \u00b7 notes/COMMAND_ECOSYSTEM_PLAN.md \u00b7 ./scripts/peer command-coverage\n\nPLAN PREVIEW:\nOrchestrate Automation Hub peers (speed \u00d7 intelligence). **TIME BOMB:** crown-era custom loop ends early\u2013mid 2027 (top 5\u201315% parity). **Also stress:** ladder speed\u2192distribution\u2192ecosystem (hub gravity); keep queue/verify/constraints, drop daemon when native ~80%; meta = exit each loop when it becomes the floor; bank users+primitives now \u2014 not kit polish. Full frame: notes/LOOP_STRATEGY.md. Live: git: 12 changed path(s) (0 modified, 12 untracked) \u00b7 tests: Ran 107 tests in 1.290s (cached, git unchanged) \u00b7 import RSS: (disabled \u2014 set rss_budget_mb in automation.config.json). Queue source: launch. Priority: LAUNCH.md phases in order (0 ship \u2192 1 GitHub \u2192 2 soft \u2192 3 Setapp \u2192 4 spikes); Phase 6 paid newsletters human-only after Setapp gate. Constraints: Progress Monitor is always-on (oversight for\u2026\n",
+          "stderr_tail": "",
+          "shell": "python3 scripts/peer_orchestrate.py --self-check --quick"
+        }
+      ]
+    },
+    {
+      "step": "C_worktree",
+      "ok": true,
+      "dry_run": false,
+      "dirty": true,
+      "status": "worktree_added",
+      "add_exit": 0,
+      "add_stderr": "Preparing worktree (new branch 'peer/kit-a-to-z-20260908T052235')\n",
+      "needle": "OVERSEER_KIT_RUN_AE_2026_09_07",
+      "suggested_branch": "peer/kit-a-to-z-20260908T052235",
+      "worktree_path": "/Users/togi/movie-kit-a-to-z-20260908T052235",
+      "target": "/Users/togi/movie",
+      "hint": "git worktree add -b <branch> <path> HEAD \u2014 dirty-main safe"
+    },
+    {
+      "step": "D_artifact",
+      "ok": true,
+      "dry_run": false,
+      "mode": "blocked_receipt",
+      "blocked_receipt": {
+        "blocked": true,
+        "reasons": [
+          "gh_pr_create_failed:1"
+        ],
+        "branch": "peer/kit-a-to-z-20260908T052235",
+        "worktree_path": "/Users/togi/movie-kit-a-to-z-20260908T052235",
+        "target": "/Users/togi/movie",
+        "ts": "2026-09-08T05:22:38Z",
+        "needle": "OVERSEER_KIT_RUN_AE_2026_09_07",
+        "note": "Unsupervised compound stopped at D with explicit blocked receipt \u2014 no mid-loop human. Re-run after origin+gh available for PR path."
+      },
+      "needle": "OVERSEER_KIT_RUN_AE_2026_09_07"
+    },
+    {
+      "step": "E_writeback",
+      "ok": true,
+      "dry_run": false,
+      "paths": [
+        "/Users/togi/Automation/notes/FACTORY_A_TO_Z_PROOF.md",
+        "/Users/togi/Automation/notes/EXTERNAL_PROOF.md",
+        "/Users/togi/Automation/notes/factory_a_to_z_last.json"
+      ],
+      "needle": "OVERSEER_KIT_RUN_AE_2026_09_07",
+      "false_green_heal": {
+        "needle": "OVERSEER_FALSE_GREEN_LOCK_2026_09_07",
+        "ts": "2026-09-08T05:22:38Z",
+        "healed": false,
+        "write": true,
+        "eligible": false,
+        "eligible_why": "pr_remote_ref_missing",
+        "proof_claims_green": true,
+        "prior_eligible_stamp": true,
+        "action": "noop",
+        "noop_why": "prior_cpt_green_lock_stamp"
+      }
+    }
+  ],
+  "ok": true,
+  "artifact_mode": "blocked_receipt",
+  "note": "Phase2 A\u2192E complete (blocked_receipt). Green lock still requires Phase 3\u20134 \u2014 OVERSEER_KIT_RUN_AE_2026_09_07."
+}
