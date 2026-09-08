@@ -10,6 +10,3 @@ __pycache__/
 *.pyc
 .venv/
 automation.config.local.json
-*.pem
-credentials.json
-secrets/
